@@ -12,6 +12,14 @@
 		E3362FC91F95E55100633BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3362FC71F95E55100633BBA /* Main.storyboard */; };
 		E3362FCB1F95E55100633BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3362FCA1F95E55100633BBA /* Assets.xcassets */; };
 		E3362FCE1F95E55100633BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3362FCC1F95E55100633BBA /* LaunchScreen.storyboard */; };
+		E3B8B6811F95E75A00AB1610 /* acertasteTodo.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B6791F95E75A00AB1610 /* acertasteTodo.png */; };
+		E3B8B6821F95E75A00AB1610 /* ahorcado_0.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67A1F95E75A00AB1610 /* ahorcado_0.png */; };
+		E3B8B6831F95E75A00AB1610 /* ahorcado_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67B1F95E75A00AB1610 /* ahorcado_1.png */; };
+		E3B8B6841F95E75A00AB1610 /* ahorcado_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67C1F95E75A00AB1610 /* ahorcado_2.png */; };
+		E3B8B6851F95E75A00AB1610 /* ahorcado_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67D1F95E75A00AB1610 /* ahorcado_3.png */; };
+		E3B8B6861F95E75A00AB1610 /* ahorcado_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67E1F95E75A00AB1610 /* ahorcado_4.png */; };
+		E3B8B6871F95E75A00AB1610 /* ahorcado_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67F1F95E75A00AB1610 /* ahorcado_5.png */; };
+		E3B8B6881F95E75A00AB1610 /* ahorcado_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B6801F95E75A00AB1610 /* ahorcado_fin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		E3362FCA1F95E55100633BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3362FCD1F95E55100633BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3362FCF1F95E55100633BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B8B6791F95E75A00AB1610 /* acertasteTodo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acertasteTodo.png; sourceTree = "<group>"; };
+		E3B8B67A1F95E75A00AB1610 /* ahorcado_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_0.png; sourceTree = "<group>"; };
+		E3B8B67B1F95E75A00AB1610 /* ahorcado_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_1.png; sourceTree = "<group>"; };
+		E3B8B67C1F95E75A00AB1610 /* ahorcado_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_2.png; sourceTree = "<group>"; };
+		E3B8B67D1F95E75A00AB1610 /* ahorcado_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_3.png; sourceTree = "<group>"; };
+		E3B8B67E1F95E75A00AB1610 /* ahorcado_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_4.png; sourceTree = "<group>"; };
+		E3B8B67F1F95E75A00AB1610 /* ahorcado_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_5.png; sourceTree = "<group>"; };
+		E3B8B6801F95E75A00AB1610 /* ahorcado_fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_fin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		E3362FC21F95E55100633BBA /* iAhorcado */ = {
 			isa = PBXGroup;
 			children = (
+				E3B8B6891F95E77000AB1610 /* imagenes */,
 				E3362FC31F95E55100633BBA /* AppDelegate.swift */,
 				E3362FC51F95E55100633BBA /* ViewController.swift */,
 				E3362FC71F95E55100633BBA /* Main.storyboard */,
@@ -62,6 +79,21 @@
 				E3362FCF1F95E55100633BBA /* Info.plist */,
 			);
 			path = iAhorcado;
+			sourceTree = "<group>";
+		};
+		E3B8B6891F95E77000AB1610 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				E3B8B6791F95E75A00AB1610 /* acertasteTodo.png */,
+				E3B8B67A1F95E75A00AB1610 /* ahorcado_0.png */,
+				E3B8B67B1F95E75A00AB1610 /* ahorcado_1.png */,
+				E3B8B67C1F95E75A00AB1610 /* ahorcado_2.png */,
+				E3B8B67D1F95E75A00AB1610 /* ahorcado_3.png */,
+				E3B8B67E1F95E75A00AB1610 /* ahorcado_4.png */,
+				E3B8B67F1F95E75A00AB1610 /* ahorcado_5.png */,
+				E3B8B6801F95E75A00AB1610 /* ahorcado_fin.png */,
+			);
+			name = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +156,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3362FCE1F95E55100633BBA /* LaunchScreen.storyboard in Resources */,
+				E3B8B6821F95E75A00AB1610 /* ahorcado_0.png in Resources */,
+				E3B8B6861F95E75A00AB1610 /* ahorcado_4.png in Resources */,
+				E3B8B6841F95E75A00AB1610 /* ahorcado_2.png in Resources */,
+				E3B8B6831F95E75A00AB1610 /* ahorcado_1.png in Resources */,
+				E3B8B6851F95E75A00AB1610 /* ahorcado_3.png in Resources */,
+				E3B8B6881F95E75A00AB1610 /* ahorcado_fin.png in Resources */,
+				E3B8B6871F95E75A00AB1610 /* ahorcado_5.png in Resources */,
 				E3362FCB1F95E55100633BBA /* Assets.xcassets in Resources */,
+				E3B8B6811F95E75A00AB1610 /* acertasteTodo.png in Resources */,
 				E3362FC91F95E55100633BBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +339,7 @@
 				E3362FD41F95E55100633BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
