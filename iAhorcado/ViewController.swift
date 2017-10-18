@@ -78,6 +78,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var botonX: UIButton!
     @IBOutlet weak var botonY: UIButton!
     @IBOutlet weak var botonZ: UIButton!
+    @IBOutlet weak var btnReinicio: UIButton!
     var estasVivo : Bool = true
     var palabraOculta : String = "oculto"
     var numeroFallos : Int = 0
@@ -97,9 +98,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func reincio(_ sender: UIButton) {
-        
-    }
+    
     
     func eligePalabraAAdivinar(){
         
@@ -178,18 +177,22 @@ class ViewController: UIViewController {
             pantalla.image = UIImage(named: "ahorcado_5.png")
         case -1:
             pantalla.image = UIImage(named: "victoria.jpg")
+            estasVivo = false
         default:
             pantalla.image = UIImage(named: "ahorcado_fin.png")
             estasVivo = false
             
+        
         }
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         eligePalabraAAdivinar()
         ponerGuiones()
+        
     }
     
     override func didReceiveMemoryWarning() {

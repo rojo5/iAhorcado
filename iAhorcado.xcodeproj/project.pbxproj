@@ -20,7 +20,6 @@
 		E3B8B6861F95E75A00AB1610 /* ahorcado_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67E1F95E75A00AB1610 /* ahorcado_4.png */; };
 		E3B8B6871F95E75A00AB1610 /* ahorcado_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B67F1F95E75A00AB1610 /* ahorcado_5.png */; };
 		E3B8B6881F95E75A00AB1610 /* ahorcado_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B6801F95E75A00AB1610 /* ahorcado_fin.png */; };
-		E3B8B68B1F975E2300AB1610 /* win.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B68A1F975E2200AB1610 /* win.gif */; };
 		E3B8B68D1F975F9500AB1610 /* victoria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3B8B68C1F975F9500AB1610 /* victoria.jpg */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		E3B8B67E1F95E75A00AB1610 /* ahorcado_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_4.png; sourceTree = "<group>"; };
 		E3B8B67F1F95E75A00AB1610 /* ahorcado_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_5.png; sourceTree = "<group>"; };
 		E3B8B6801F95E75A00AB1610 /* ahorcado_fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_fin.png; sourceTree = "<group>"; };
-		E3B8B68A1F975E2200AB1610 /* win.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = win.gif; sourceTree = "<group>"; };
 		E3B8B68C1F975F9500AB1610 /* victoria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = victoria.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +86,6 @@
 		E3B8B6891F95E77000AB1610 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
-				E3B8B68A1F975E2200AB1610 /* win.gif */,
 				E3B8B6791F95E75A00AB1610 /* acertasteTodo.png */,
 				E3B8B68C1F975F9500AB1610 /* victoria.jpg */,
 				E3B8B67A1F95E75A00AB1610 /* ahorcado_0.png */,
@@ -171,7 +168,6 @@
 				E3B8B6881F95E75A00AB1610 /* ahorcado_fin.png in Resources */,
 				E3B8B6871F95E75A00AB1610 /* ahorcado_5.png in Resources */,
 				E3362FCB1F95E55100633BBA /* Assets.xcassets in Resources */,
-				E3B8B68B1F975E2300AB1610 /* win.gif in Resources */,
 				E3B8B6811F95E75A00AB1610 /* acertasteTodo.png in Resources */,
 				E3362FC91F95E55100633BBA /* Main.storyboard in Resources */,
 			);
