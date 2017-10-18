@@ -47,16 +47,57 @@ class ViewController: UIViewController {
     @IBOutlet weak var letrero: UILabel!
     @IBOutlet weak var pantalla: UIImageView!
     
+    var boton : UIButton = UIButton()
+    
+    @IBOutlet weak var botonA: UIButton!
+    @IBOutlet weak var botonB: UIButton!
+    @IBOutlet weak var botonC: UIButton!
+    @IBOutlet weak var botonD: UIButton!
+    @IBOutlet weak var botonE: UIButton!
+    @IBOutlet weak var botonF: UIButton!
+    @IBOutlet weak var botonG: UIButton!
+    @IBOutlet weak var botonH: UIButton!
+    @IBOutlet weak var botonI: UIButton!
+    @IBOutlet weak var botonJ: UIButton!
+    @IBOutlet weak var botonK: UIButton!
+    @IBOutlet weak var botonL: UIButton!
+    @IBOutlet weak var botonM: UIButton!
+    @IBOutlet weak var botonN: UIButton!
+    @IBOutlet weak var botonÑ: UIButton!
+    @IBOutlet weak var botonO: UIButton!
+    
+    @IBOutlet weak var botonP: UIButton!
+    
+    @IBOutlet weak var botonQ: UIButton!
+    @IBOutlet weak var botonR: UIButton!
+    @IBOutlet weak var botonS: UIButton!
+    @IBOutlet weak var botonT: UIButton!
+    @IBOutlet weak var botonU: UIButton!
+    @IBOutlet weak var botonV: UIButton!
+    @IBOutlet weak var botonW: UIButton!
+    @IBOutlet weak var botonX: UIButton!
+    @IBOutlet weak var botonY: UIButton!
+    @IBOutlet weak var botonZ: UIButton!
+    var estasVivo : Bool = true
     var palabraOculta : String = "oculto"
     var numeroFallos : Int = 0
     let listaPalabras = ["YAVIN", "FELUCIA", "CORUSCANT", "KAMINO", "TATOOINE", "SCARIF", "BESPIN", "NABOO", "JEDHA"]
     
     
+    
     @IBAction func letras(_ sender: UIButton) {
-        sender.isEnabled = false
-        chequeaLetra(caracter: sender.currentTitle!)
        
+        if estasVivo == true{
+            boton = sender
+            
+            sender.isEnabled = false
+            chequeaLetra(caracter: sender.currentTitle!)
+        }
         
+    }
+    
+    
+    @IBAction func reincio(_ sender: UIButton) {
         
     }
     
@@ -103,11 +144,12 @@ class ViewController: UIViewController {
                 }
                 
             }
-            
+            boton.backgroundColor = UIColor.green
             letrero.text = palabraConGuiones
         }
         else{
             numeroFallos += 1
+            boton.backgroundColor = UIColor.red
             dibujaImagen(fallos: numeroFallos)
         }
         
@@ -138,6 +180,8 @@ class ViewController: UIViewController {
             pantalla.image = UIImage(named: "victoria.jpg")
         default:
             pantalla.image = UIImage(named: "ahorcado_fin.png")
+            estasVivo = false
+            
         }
     }
     
