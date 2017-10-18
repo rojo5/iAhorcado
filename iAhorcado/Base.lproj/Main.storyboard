@@ -26,62 +26,87 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3M-qv-x5i">
-                                <frame key="frameInset" minX="12" minY="397" width="45" height="37"/>
+                                <frame key="frameInset" minX="10" minY="443" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="A"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgW-96-eeS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYK-is-cDM">
-                                <frame key="frameInset" minX="65" minY="397" width="45" height="37"/>
+                                <frame key="frameInset" minX="63" minY="443" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="B"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uke-ra-xju"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="068-P3-lJd">
-                                <frame key="frameInset" minX="118" minY="397" width="45" height="37"/>
+                                <frame key="frameInset" minX="116" minY="443" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bUB-uo-LLe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-Tt-VRS">
-                                <frame key="frameInset" minX="171" minY="397" width="45" height="37"/>
+                                <frame key="frameInset" minX="173" minY="443" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="D"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5H-Wt-Rz3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfJ-FI-oty">
-                                <frame key="frameInset" minX="224" minY="397" width="45" height="37"/>
+                                <frame key="frameInset" minX="222" minY="443" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="E"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cXA-95-3Q4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTK-yT-ll7">
-                                <frame key="frameInset" minX="268" minY="397" width="45" height="37"/>
+                                <frame key="frameInset" minX="266" minY="443" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="F"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ilZ-It-qbn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS1-tK-hHM">
-                                <frame key="frameInset" minX="317" minY="397" width="45" height="37"/>
+                                <frame key="frameInset" minX="315" minY="443" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="G"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdt-rK-V9U">
-                                <frame key="frameInset" minX="13" minY="442" width="45" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="H"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMY-jr-VGf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iym-rF-J2f">
-                                <frame key="frameInset" minX="66" minY="442" width="45" height="37"/>
+                                <frame key="frameInset" minX="64" minY="488" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="I"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NuR-nX-R7M"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hC-M2-bcD">
-                                <frame key="frameInset" minX="119" minY="442" width="45" height="37"/>
+                                <frame key="frameInset" minX="117" minY="488" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="J"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zrN-KZ-d45"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmj-Xb-2Ht">
-                                <frame key="frameInset" minX="172" minY="442" width="45" height="37"/>
+                                <frame key="frameInset" minX="170" minY="488" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="K"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YdU-K8-SPC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sg-R2-eNp">
-                                <frame key="frameInset" minX="225" minY="442" width="45" height="37"/>
+                                <frame key="frameInset" minX="223" minY="488" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="L"/>
                                 <connections>
@@ -89,84 +114,137 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUJ-et-7ph">
-                                <frame key="frameInset" minX="268" minY="442" width="45" height="37"/>
+                                <frame key="frameInset" minX="266" minY="488" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="M"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nA4-gG-obY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1E-cs-ZKV">
-                                <frame key="frameInset" minX="318" minY="442" width="45" height="37"/>
+                                <frame key="frameInset" minX="316" minY="488" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="N"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tgh-7f-pIc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMq-LY-oIv">
-                                <frame key="frameInset" minX="12" minY="487" width="45" height="37"/>
+                                <frame key="frameInset" minX="10" minY="533" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Ñ"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="38n-Ra-vdK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEd-XI-U5g">
-                                <frame key="frameInset" minX="69" minY="487" width="45" height="37"/>
+                                <frame key="frameInset" minX="67" minY="533" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="O"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bvm-Po-Ggu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKP-4g-u4a">
-                                <frame key="frameInset" minX="122" minY="487" width="45" height="37"/>
+                                <frame key="frameInset" minX="120" minY="533" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="P"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hk5-n3-K6d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxp-rU-RjI">
-                                <frame key="frameInset" minX="175" minY="487" width="45" height="37"/>
+                                <frame key="frameInset" minX="173" minY="533" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Q"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kOp-RM-7Yd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIa-E3-aGO">
-                                <frame key="frameInset" minX="225" minY="487" width="45" height="37"/>
+                                <frame key="frameInset" minX="223" minY="533" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="R"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OtW-8G-B7t"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQC-vq-zEc">
-                                <frame key="frameInset" minX="268" minY="487" width="45" height="37"/>
+                                <frame key="frameInset" minX="266" minY="533" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="S"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="59L-zp-BFk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSA-1T-XJV">
-                                <frame key="frameInset" minX="321" minY="487" width="45" height="37"/>
+                                <frame key="frameInset" minX="319" minY="533" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="T"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M2a-7M-COv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CN1-DS-tZd">
-                                <frame key="frameInset" minX="69" minY="532" width="45" height="37"/>
+                                <frame key="frameInset" minX="67" minY="578" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="V"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gkt-Oc-dx5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKK-6e-9jM">
-                                <frame key="frameInset" minX="122" minY="532" width="45" height="37"/>
+                                <frame key="frameInset" minX="120" minY="578" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="W"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JEO-Se-afz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJQ-CO-Cog">
-                                <frame key="frameInset" minX="228" minY="532" width="45" height="37"/>
+                                <frame key="frameInset" minX="226" minY="578" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="X"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hL1-vl-yC9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9H-32-edn">
-                                <frame key="frameInset" minX="268" minY="532" width="45" height="37"/>
+                                <frame key="frameInset" minX="266" minY="578" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Y"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gzw-z0-OST"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umI-U3-gHw">
-                                <frame key="frameInset" minX="321" minY="532" width="45" height="37"/>
+                                <frame key="frameInset" minX="319" minY="578" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Z"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zhz-c4-zGQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsG-Ly-jJz">
-                                <frame key="frameInset" minX="12" minY="532" width="45" height="37"/>
+                                <frame key="frameInset" minX="10" minY="578" width="45" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="U"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O7u-Oj-LXm"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ahorcado_0.png" translatesAutoresizingMaskIntoConstraints="NO" id="BzI-wx-0uu">
                                 <frame key="frameInset" minX="16" minY="28" width="346" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdt-rK-V9U">
+                                <frame key="frameInset" minX="10" minY="488" width="45" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="H"/>
+                                <connections>
+                                    <action selector="letras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZz-Yh-Dic"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
